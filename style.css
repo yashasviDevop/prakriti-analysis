@@ -1,0 +1,122 @@
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f3f1ec;
+      color: #2c2c2c;
+      overflow-x: hidden;
+    }
+
+    .hero {
+      height: 100vh;
+      background: url('green3.png') no-repeat center center/cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      animation: fadeInBg 2s ease forwards;
+      position: relative;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      color: #fff;
+      opacity: 0;
+      animation: fadeInText 2s ease forwards 2s;
+    }
+   .hero .analyze-btn {
+      margin-top: 30px;
+      padding: 12px 24px;
+      font-size: 1.2rem;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      opacity: 0;
+      animation: fadeInButton 1.5s ease forwards 4s;
+      text-decoration: none;
+    }
+
+    .hero .know-more {
+      margin-top: 20px;
+      color: #fff;
+      font-size: 1rem;
+      text-decoration: underline;
+      cursor: pointer;
+      opacity: 0;
+      animation: fadeInButton 1.5s ease forwards 4.5s;
+    }
+    .hero button {
+      margin-top: 30px;
+      padding: 12px 24px;
+      font-size: 1.2rem;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      opacity: 0;
+      animation: fadeInButton 1.5s ease forwards 4s;
+    }
+
+    @keyframes fadeInBg {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes fadeInText {
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInButton {
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .info {
+      background-color: #e0ede0;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .info h2 {
+      font-size: 2rem;
+      color: #2e7d32;
+      margin-bottom: 20px;
+    }
+
+    .doshas {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .dosha-card {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 12px;
+      width: 300px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .dosha-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .dosha-card h3 {
+      color: #4CAF50;
+      margin-bottom: 10px;
+    }
+
+    .dosha-card p {
+      font-size: 0.95rem;
+      color: #444;
+    }

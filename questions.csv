@@ -1,0 +1,31 @@
+﻿ID;Question;Option A;Value A;Option B;Value B;Option C;Value C;Option D;Value D;Category
+1;What is your skin type?;Dry;Vata;Oily;Pitta;Balanced;Kapha;Varies;Vata;Physical
+2;How is your body build?;Thin;Vata;Muscular;Pitta;Heavy;Kapha;Average;Kapha;Physical
+3;How is your sleep pattern?;Light;Vata;Moderate;Pitta;Deep;Kapha;Disturbed;Vata;Habitual
+4;What is your energy level?;High bursts;Vata;Steady;Pitta;Low;Kapha;Balanced;Kapha;Habitual
+5;What is your voice like?;Low & hoarse;Vata;Loud & sharp;Pitta;Soft & slow;Kapha;Variable;Vata;Physical
+6;How do you walk?;Quick & light;Vata;Balanced;Pitta;Slow & heavy;Kapha;Uneven;Vata;Physical
+7;How do you feel in cold weather?;Dislike;Vata;Neutral;Pitta;Prefer;Kapha;Sensitive;Vata;Environmental
+8;How is your digestion?;Irregular;Vata;Strong;Pitta;Slow;Kapha;Variable;Vata;Habitual
+9;What is your appetite?;Fluctuating;Vata;Strong;Pitta;Stable;Kapha;Low;Kapha;Habitual
+10;What is your stress response?;Restless;Vata;Irritable;Pitta;Calm;Kapha;Nervous;Vata;Emotional
+11;What is your skin temperature?;Cool;Vata;Warm;Pitta;Cold;Kapha;Hot;Pitta;Physical
+12;What is your emotional nature?;Anxious;Vata;Angry easily;Pitta;Calm;Kapha;Mixed;Pitta;Emotional
+13;What is your body temperature?;Cold;Vata;Warm;Pitta;Cool;Kapha;Hot flashes;Pitta;Physical
+14;How do you sweat?;Little;Vata;Profusely;Pitta;Moderate;Kapha;None;Vata;Physical
+15;In arguments, you tend to:;Avoid;Vata;Confront;Pitta;Withdraw;Kapha;Explode;Pitta;Mental
+16;What is your focus style?;Short;Vata;Sharp;Pitta;Slow;Kapha;Precise;Pitta;Mental
+17;How is your digestion?;Irregular;Vata;Strong & fast;Pitta;Slow;Kapha;Balanced;Pitta;Habitual
+18;How is your hair?;Dry & frizzy;Vata;Oily & thin;Pitta;Thick & strong;Kapha;Brittle;Vata;Physical
+19;What food do you crave?;Hot & spicy;Pitta;Cold & sweet;Kapha;Warm & oily;Vata;Fresh & light;Pitta;Dietary
+20;How do you feel in hot weather?;Comfortable;Vata;Overheated;Pitta;Fine;Kapha;Sweaty;Pitta;Environmental
+21;What is your body frame?;Heavy;Kapha;Medium;Pitta;Light;Vata;Muscular;Pitta;Physical
+22;How often do you fall ill?;Rarely;Kapha;Occasionally;Pitta;Frequently;Vata;Almost never;Kapha;Physical
+23;What is your response to routine?;Like routine;Kapha;Neutral;Pitta;Dislike;Vata;Forgetful;Vata;Mental
+24;How do you handle disappointment?;Calmly;Kapha;Angry;Pitta;Nervous;Vata;Sad;Kapha;Emotional
+25;How is your memory?;Long-term;Kapha;Sharp but short;Pitta;Forgetful;Vata;Average;Kapha;Mental
+26;What is your pace of activity?;Slow & steady;Kapha;Quick;Vata;Intense;Pitta;Balanced;Kapha;Physical
+27;What are your eating habits?;Regular & slow;Kapha;Quick & intense;Pitta;Skipped meals;Vata;Balanced;Kapha;Dietary
+28;What is your water intake like?;Moderate;Kapha;High;Pitta;Low;Vata;Variable;Vata;Habitual
+29;What kind of weather do you enjoy?;Warm & dry;Kapha;Cool & crisp;Pitta;Hot & humid;Vata;Mixed;Kapha;Environmental
+30;What is your emotional baseline?;Content & peaceful;Kapha;Moody;Pitta;Anxious;Vata;Loving;Kapha;Emotional

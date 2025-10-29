@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prakriti Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f3f1ec;
+      margin: 0;
+      padding: 0;
+    }
+
+    .quiz-container {
+      max-width: 700px;
+      margin: 50px auto;
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .quiz-container h2 {
+      text-align: center;
+      color: #2e7d32;
+    }
+
+    .question-box {
+      margin-top: 30px;
+    }
+
+    .question-text {
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+
+    .options label {
+      display: block;
+      background: #e0ede0;
+      padding: 10px;
+      border-radius: 8px;
+      margin-bottom: 10px;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    .options label:hover {
+      background-color: #c8dbc8;
+    }
+
+    .options input[type="radio"] {
+      margin-right: 10px;
+    }
+
+    .quiz-buttons {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+    }
+
+    .quiz-buttons button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      background-color: #4CAF50;
+      color: white;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: 0.3s;
+    }
+
+    .quiz-buttons button:hover {
+      background-color: #388e3c;
+    }
+
+    .quiz-buttons button:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+
+    .result {
+      margin-top: 20px;
+      font-size: 1.1rem;
+      padding: 20px;
+      background-color: #e7f7e5;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="quiz-container">
+    <h2>🧠 Ayurvedic Prakriti Quiz</h2>
+
+    <div class="question-box">
+      <div class="question-text" id="question">Loading question...</div>
+      <div class="options" id="options"></div>
+    </div>
+
+    <div class="quiz-buttons">
+      <button id="prev" disabled>⬅ Previous</button>
+      <button id="next">Next ➡</button>
+    </div>
+
+    <!-- This will hold result once quiz ends -->
+    <div id="result" class="result" style="display: none;"></div>
+  </div>
+
+  <!-- PapaParse for CSV reading -->
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+
+  <!-- Your JS logic -->
+  <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ayurvedic Prakriti Analysis</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <section class="hero">
+    <h1>Know Your Health</h1>
+      <a href="quiz.html" class="analyze-btn">Analyze Now</a>
+    <div class="know-more" onclick="scrollToInfo()">Know More ↓</div>
+    
+  </section>
+
+  <section class="info" id="info">
+    <h2>Understanding the Doshas</h2>
+    <div class="doshas">
+      <div class="dosha-card">
+        <h3>Vata</h3>
+        <p><strong>Element:</strong> Air + Space<br><strong>Air (Vayu):</strong> Movement, breath, nerve impulses, circulation<br><strong>Space (Akasha):</strong> Expansion, openness, subtlety<br><strong>Vata</strong> governs all movement in the body — from muscle contractions to nerve signals and mental activity.</p>
+      </div>
+      <div class="dosha-card">
+        <h3>Pitta</h3>
+        <p><strong>Element:</strong> Fire + Water<br><strong>Fire (Agni):</strong> Digestion, transformation, clarity, intelligence<br><strong>Water (Jala):</strong> Balances fire to prevent burning; maintains fluidity<br><strong>Pitta</strong> governs digestion, metabolism, and transformation — physically and mentally.</p>
+      </div>
+      <div class="dosha-card">
+        <h3>Kapha</h3>
+        <p><strong>Element:</strong> Earth + Water<br><strong>Earth (Prithvi):</strong> Structure, strength, grounding<br><strong>Water (Apas):</strong> Lubrication, cohesion, nurturing<br><strong>Kapha</strong> provides structure, endurance, and emotional stability.</p>
+      </div>
+    </div>
+    <div class="doshas">
+      <div class="dosha-card">
+        <h3>Vata</h3>
+        <p><strong>Body Areas:</strong><br><strong>Colon:</strong> Controls elimination, prone to dryness and constipation<br><strong>Ears:</strong> Perception of sound, often cold and dry<br><strong>Skin:</strong> Tends to be rough, cool, dry, and thin<br><strong>Bones & Joints:</strong> Cracking, light frame, brittle if imbalanced<br><strong>Nervous System:</strong> Controls mental speed, alertness, and creativity</p>
+      </div>
+      <div class="dosha-card">
+        <h3>Pitta</h3>
+        <p><strong>Body Areas:</strong><br><strong>Stomach & Intestines:</strong> Digestive fire and enzyme secretion<br><strong>Liver, Spleen, Gallbladder:</strong> Bile production and detox<br><strong>Eyes:</strong> Sharp vision, sensitivity to light/heat<br><strong>Skin:</strong> Warm, can be reddish, acne-prone when imbalanced<br><strong>Blood:</strong> Circulatory heat regulation</p>
+      </div>
+      <div class="dosha-card">
+        <h3>Kapha</h3>
+        <p><strong>Body Areas:</strong><br><strong>Chest & Lungs:</strong> Controls mucus and respiration<br><strong>Joints:</strong> Lubricates for smooth movement<br><strong>Stomach lining:</strong> Protects and soothes<br><strong>Sinuses:</strong> Can get congested easily<br><strong>Reproductive organs:</strong> Fertility and stability</p>
+      </div>
+    </div>
+    <div class="doshas">
+      <div class="dosha-card">
+        <h3>Vata</h3>
+        <p><strong>Traits:</strong><br><strong>Creative</strong> and full of imagination<br><strong>Quick learner</strong>, naturally slim and flexible<br><strong>Energetic</strong> in short bursts<br><strong>Enjoys variety</strong> and spontaneity<br><strong>Spiritual</strong>, curious, and expressive</p>
+      </div>
+      <div class="dosha-card">
+        <h3>Pitta</h3>
+        <p><strong>Traits:</strong><br><strong>Focused</strong>, ambitious, intelligent<br><strong>Natural leader</strong> and perfectionist<br><strong>Strong digestion</strong> and goal-driven<br><strong>Warm-hearted</strong> and quick decision-maker</p>
+      </div>
+      <div class="dosha-card">
+        <h3>Kapha</h3>
+        <p><strong>Traits:</strong><br><strong>Loyal</strong>, nurturing, and patient<br><strong>Strong build</strong>, deep sleeper<br><strong>Emotionally grounded</strong>, excellent memory</p>
+      </div>
+    </div>
+    <div class="doshas">
+      <div class="dosha-card">
+        <h3>Vata</h3>
+        <p><strong>Limitations:</strong><br><strong>Anxiety</strong>, insomnia, overthinking<br><strong>Forgetfulness</strong>, cold hands/feet<br><strong>Dryness</strong> and constipation<br><strong>Dislikes</strong> irregular schedules and cold climates</p>
+      </div>
+      <div class="dosha-card">
+        <h3>Pitta</h3>
+        <p><strong>Limitations:</strong><br><strong>Anger</strong>, irritability, acidity<br><strong>Rashes</strong>, burnout, impatience<br><strong>Dislikes</strong> heat, competition, spicy food</p>
+      </div>
+      <div class="dosha-card">
+        <h3>Kapha</h3>
+        <p><strong>Limitations:</strong><br><strong>Lethargy</strong>, procrastination<br><strong>Weight gain</strong>, congestion<br><strong>Dislikes</strong> cold/damp environments<br><strong>Slow digestion</strong>, emotional attachment</p>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    function scrollToInfo() {
+      document.getElementById("info").scrollIntoView({ behavior: "smooth" });
+    }
+  </script>
+
+</body>
+</html>
